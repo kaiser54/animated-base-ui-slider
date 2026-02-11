@@ -65,7 +65,7 @@ export default function App() {
             >
               <Slider.Thumb
                 aria-label="Volume"
-                className="w-1 h-5 rounded-full bg-gray-300 cursor-grab active:cursor-grabbing has-focus-visible:ring-1 has-focus-visible:ring-offset-1 has-focus-visible:ring-offset-gray-100 has-focus-visible:ring-blue-400/60 pointer-events-auto"
+                className="w-1 h-5 rounded-full bg-gray-300 cursor-grab active:cursor-grabbing has-focus-visible:ring-1 has-focus-visible:ring-offset-1 has-focus-visible:ring-offset-gray-100 sm:has-focus-visible:ring-blue-400/60 pointer-events-auto"
                 style={{
                   transform: `translateX(${displayValue < 9 ? '100%' : '-200%'}) scale(${0.7 + thumbOpacity(displayValue) * 0.3})`,
                 }}
